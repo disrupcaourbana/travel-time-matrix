@@ -38,7 +38,7 @@ for (i in 1:nrow(bairros)){
     api = google_distance(origins = bairros$x[i],
                           destinations = bairros$x[j], 
                           mode="driving",
-                          key="AIzaSyARW2MnunkDDS0BkqKCzCfqsFYxPmj_xVI")
+                          key="SuaChaveAqui")
     
     # Verificar se a distância é válida antes de atribuir à matriz
     if (length(api[["rows"]][["elements"]][[1]][["distance"]][["value"]])>0) {
