@@ -30,7 +30,7 @@ tempo = distancia
 api = google_distance(origins = bairros$x[3],
                       destinations = bairros$x[4], 
                       mode="driving",
-                      key="AIzaSyARW2MnunkDDS0BkqKCzCfqsFYxPmj_xVI")
+                      key="SuaChaveAqui")
 
 for (i in 1:nrow(bairros)){
   for (j in 1:nrow(bairros)){
